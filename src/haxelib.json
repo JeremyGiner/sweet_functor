@@ -1,0 +1,13 @@
+{
+  "name": "sweet.functor",
+  "url" : "https://github.com/JeremyGiner/sweet_functor/",
+  "license": "MIT",
+  "tags": ["cross", "sweet", "design pattern", "functor"],
+  "description": "A collection of functor including comparator, validator.",
+  "version": "1.0.0",
+  "classPath": "src/",
+  "releasenote": "Initial release, work in progress.",
+  "contributors": ["GINER jeremy"],
+  "dependencies": {
+  }
+}
