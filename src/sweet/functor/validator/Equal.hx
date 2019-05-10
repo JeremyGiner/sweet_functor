@@ -6,14 +6,14 @@ package sweet.functor.validator;
  */
 class Equal<C> implements IValidator<C> {
 
-	var _oValue :C;
+	var _oReference :C;
 	
-	public function new( oValue :C ) {
-		_oValue = oValue;
+	public function new( oReference :C ) {
+		_oReference = oReference;
 	}
 	
 	public function apply( oValue :C ) {
-		return _oValue == oValue;
+		return _oReference == oValue;
 	}
 	
 }
