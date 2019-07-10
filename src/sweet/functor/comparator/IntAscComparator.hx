@@ -13,7 +13,7 @@ class IntAscComparator implements IComparator<Int> {
 	public function apply( a :Int, b :Int) {
 		if ( a == b )
 			return 0;
-		return a < b ? 1 : -1;
+		return a < b ? -1 : 1;
 	}
 	
 }
